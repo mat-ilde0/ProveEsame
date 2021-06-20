@@ -1,0 +1,12 @@
+
+STATISTICHE DI GIOCO:
+
+Nome = matilde
+statisticheDiGioco:
+- Partite vinte = 5/14
+- Partite pareggiate = 6/14
+
+Nome = Il tuo computer
+statisticheDiGioco:
+- Partite vinte = 3/14
+- Partite pareggiate = 6/14
