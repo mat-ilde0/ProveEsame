@@ -5,10 +5,13 @@ import it.unibs.fp.mylib.MyMenu;
 
 public class MainClass {
 
+	private static final String DESCRIZIONE = "E' richiesta una breve descrizione dell'azienda: ";
+	private static final String NOME_AZIENDA_SANITARIA = "Inserire il nome dell'azienda sanitaria: ";
+
 	public static void main(String[] args) {
 		
-		String nome = InputDati.leggiStringaNonVuota("Inserire il nome dell'azienda sanitaria: ");
-		String descrizione = InputDati.leggiStringaNonVuota("E' richiesta una breve descrizione dell'azienda: ");
+		String nome = InputDati.leggiStringaNonVuota(NOME_AZIENDA_SANITARIA);
+		String descrizione = InputDati.leggiStringaNonVuota(DESCRIZIONE);
 		
 		AziendaSanitaria nuovaAzienda = new AziendaSanitaria(nome, descrizione);
 		
